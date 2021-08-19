@@ -1,8 +1,8 @@
 server:
-  port: ${port:8085}
+  port: ${port:12085}
 spring:
   profiles:
-    active: "dev-local"
+    active: "dev-ogya"
   main:
     banner-mode: "off"
   jpa:
